@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatharth Kaushik</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header style="width: 100%;">
+        <div class="h">
+            <div class="navbar">
+                <div class="left_bar">
+                    <div class="one">
+                    </div>
+                    <div class="one">
+                    </div>
+                </div>
+                <div class="right_bar">
+                    <button id="contact_btn" onclick="btn_clicked(this.id)">Contact Me <img src="./images/person.svg" class="contact_img" alt="(::)"></button>
+                </div>
+                <div class="menu">
+                    <img onclick="showMenu()" class="menu_btn" src="./images/menu.svg" alt="Menu..">
+                </div>
+            </div>
+        </div>
+        <!-- commit checking -->
+        <div class="menu_header">
+            <span id="menu_part1_head">Navigation</span>
+            <div class="menu_fragments_part1">
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/house.svg" alt="(::)">
+                    <a class="anchor" href="#">Home</a> 
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/fire.svg" alt="(::)">
+                    <a class="anchor" href="#">Trending</a> 
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/braces.svg" alt="(::)">
+                    <a class="anchor" href="#">Snippets</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/camera-reels.svg" alt="(::)">
+                    <a class="anchor" href="#">Videos</a>
+                </span>
+            </div>
+    
+            
+            <span id="menu_part2_head">Socials</span>
+            <div class="menu_fragments_part2">
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/instagram.svg" alt="(::)">
+                    <a class="anchor" href="https://www.instagram.com/01_vishal_sharma_01/?next=%2F" target="_blank">Instagram</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/github.svg" alt="(::)">
+                    <a class="anchor" href="https://github.com/1234vishalsharma" target="_blank">GitHub</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/linkedin.svg" alt="(::)">
+                    <a class="anchor" href="https://www.linkedin.com/in/host-vishalsharma/" target="_blank">Linkedin</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/youtube.svg" alt="(::)">
+                    <a class="anchor" href="https://www.youtube.com/" target="_blank">Youtube</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/person2.svg" alt="(::)">
+                    <a class="anchor" href="#">Profile</a>
+                </span>
+    
+            </div>
+        </div>
+    </header>
+    
+
+    <div class="left_nav">
+        <div class="fragments_part1">
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/house.svg" alt="(::)">
+                <a class="anchor" href="#">Home</a> 
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/fire.svg" alt="(::)">
+                <a class="anchor" href="#">Trending</a> 
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/braces.svg" alt="(::)">
+                <a class="anchor" href="#">Snippets</a>
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/camera-reels.svg" alt="(::)">
+                <a class="anchor" href="#">Videos</a>
+            </span>
+        </div>
+
+        <span id="part2_head">Socials</span>
+
+        <div class="fragments_part2">
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/instagram.svg" alt="(::)">
+                <a class="anchor" href="https://www.instagram.com/aarav.kaushik17/" target="_blank">Instagram</a>
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/github.svg" alt="(::)">
+                <a class="anchor" href="https://github.com/yatharthkaushik17" target="_blank">GitHub</a>
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/linkedin.svg" alt="(::)">
+                <a class="anchor" href="https://www.linkedin.com/in/yatharth-kaushik-b46063295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a>
+            </span>
+
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/person2.svg" alt="(::)">
+                <a class="anchor" href="#">Profile</a>
+            </span>
+
+        </div>
+    </div>
+    
+    <div class="profile_container">
+        <div class="profile_section">
+            <div class="profile_content">
+                <div class="profile_img">
+                    <img class="profile_pic" src="./images/profilePicYtk.jpg" height=90 width=90 alt="...">
+                </div>
+                <div class="profile_name">
+                    <span class="name" id="naam">Yatharth Kaushik</span>
+                    <span class="name">
+                        <button class="insta_btn" id="btn_insta_logo" onclick="follow_on_insta()"><img src="./images/insta.svg" alt="..."></button>
+                    </span>
+                </div>
+            </div>
+                <div class="instagram_btn">
+                        <button class="insta_btn" onclick="follow_on_insta()"><img src="./images/insta.svg" alt="..."> Follow me on Instagram</button>
+                </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="projects_container">
+            <h3 id="project_name">Projects</h3>
+            <div class="project_items">
+              
+                
+               
+                    <div class="card" id="paint_app">
+                        <div class="card_img_container">
+                            <img class="card_img" id="app_img" src="./images/app_img.png" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Notes App</h3>
+                            <span class="project_requ">Java, Android Development, Android Studio</span>
+                        </div>
+                    </div>
+     
+              
+                    <div class="card" id="calc" >
+                        <div class="card_img_container">
+                            <img class="card_img" src="./images/calculator.jpeg" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Calculator</h3>
+                            <span class="project_requ">Java, Android, Android Studio </span>
+                        </div>
+                    </div>
+           
+                
+        
+                    <div class="card" id="e_comm">
+                        <div class="card_img_container">
+                            <img class="card_img" src="./images/tictacimg.png" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Tic Tac Toe</h3>
+                            <span class="project_requ">Java, Android, Android Studio, Admin Panel, Firebase Database</span>
+                        </div>
+                    </div>
+                       
+            </div>
+        </div>
+
+        <div class="skills_container">
+            <div>
+            <h3 id="skills_heading">What I Know</h3>
+
+                <div class="skills_items">
+
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Frontend</h3>
+                        <div class="items">
+                            <span id="br-none">HTML</span>
+                            <span id="br-blue">CSS</span>
+                            <span id="br-yellow">JavaScript</span>
+                            <span id="br-green">XML & Java</span>
+                            <span id="br-purple">Bootstrap</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Backend</h3>
+                        <div class="items">
+                            <span id="br-green">Java</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Database</h3>
+                        <div class="items">
+                            <span id="br-yellow">Firebase</span>
+                            <span id="br-purple">My Sql</span>
+                        </div>
+                    </div>
+                </div> 
+            </div>   
+
+                <div class="more-projects_container">
+                    <h3 id="more_pro_head">More projects</h3>
+                    <div class="list_more_pro">
+                        <div class="list_item" id="todo" >
+                            <!-- This is ToDo List App  -->
+                            <img src="./images/check2-circle.svg" alt="...">
+                            
+                            <div class="list_item_details">
+                                <span class="list_name">Notes/Interview Prep App</span>
+                                <span class="list_desc">Java, Android Studio, google</span>
+                            </div>
+                            <img src="./images/arrow-right-circle-fill.svg" alt="...">
+                        </div>
+                        
+                        </div>
+                        <div class="list_item" id="TTT" >
+                            <!-- This is Tic tac toe -->
+                            <img src="./images/grid-3x3.svg" alt="...">
+                            
+                            <div class="list_item_details">
+                                <span class="list_name">Tic Tac Toe Game</span>
+                                <span class="list_desc">Java, Android Studio, Mathematics</span>
+                            </div>
+                            <img src="./images/arrow-right-circle-fill.svg" alt="...">
+                        </div>
+                    </div>
+                </div>       
+        </div>
+
+
+
+        <div class="other_profiles">
+            <h3 id="other">Other Platforms & Resume</h3>
+            <div class="other_container">
+
+                <div class="card_other" id="leet_code" onclick="open_platforms(this.id)" >
+                    <div class="other_card_img">
+                        <img src="./images/leetcode.svg" alt="...">
+                    </div>
+                    <div class="other_title">
+                        <span class="platform">Leetcode</span>
+                    </div>
+                </div>
+                
+                <div class="card_other" id="gfg" onclick="open_platforms(this.id)">
+                    <div class="other_card_img">
+                        <img src="./images/gfg.svg  " alt="...">
+                    </div>
+                    <div class="other_title">
+                        <span class="platform">Geeks For Geeks</span>
+                    </div>
+                </div>
+
+                <div class="card_other" id="hrank" onclick="open_platforms(this.id)">
+                    <div class="other_card_img">
+                        <img src="./images/hackerrank.svg" alt="...">
+                    </div>
+                    <div class="other_title">
+                        <span class="platform">Hacker Rank</span>
+                    </div>
+                </div>
+
+                <div class="card_other" id="resume">
+                    <div class="other_card_img">
+                        <img class="resume_img" src="./images/newspaper.svg" alt="...Resume">
+                    </div>
+                    <div class="download_btn">
+                        <button  onclick="download_resume()" class="resume_btn">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+
+</body>
+<script src="./js/main.js"></script>
+</html>
